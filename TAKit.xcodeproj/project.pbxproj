@@ -7,43 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B43EB6431B280E39005FA4DF /* ActivityIndicatorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B4D9F4051B27CA0A005AAE07 /* ActivityIndicatorViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B43EB6441B280E3A005FA4DF /* ActivityIndicatorPopUp.h in Headers */ = {isa = PBXBuildFile; fileRef = B4D9F40A1B27CA18005AAE07 /* ActivityIndicatorPopUp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B43EB6451B280E3A005FA4DF /* TAPopUp.h in Headers */ = {isa = PBXBuildFile; fileRef = B4D9F40D1B27CA26005AAE07 /* TAPopUp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B43EB6461B280E3A005FA4DF /* UIViewController+TAPopUp.h in Headers */ = {isa = PBXBuildFile; fileRef = B4D9F40F1B27CA26005AAE07 /* UIViewController+TAPopUp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4D9F4081B27CA0A005AAE07 /* ActivityIndicatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D9F4061B27CA0A005AAE07 /* ActivityIndicatorViewController.m */; };
+		B4D9F4091B27CA0A005AAE07 /* ActivityIndicatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4D9F4071B27CA0A005AAE07 /* ActivityIndicatorViewController.xib */; };
+		B4D9F40C1B27CA18005AAE07 /* ActivityIndicatorPopUp.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D9F40B1B27CA18005AAE07 /* ActivityIndicatorPopUp.m */; };
+		B4D9F4111B27CA26005AAE07 /* TAPopUp.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D9F40E1B27CA26005AAE07 /* TAPopUp.m */; };
+		B4D9F4121B27CA26005AAE07 /* UIViewController+TAPopUp.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D9F4101B27CA26005AAE07 /* UIViewController+TAPopUp.m */; };
+		B4D9F4241B27CC52005AAE07 /* TaKits.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B4D9F4231B27CC52005AAE07 /* TaKits.h */; };
+		B4D9F4261B27CC52005AAE07 /* TaKits.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D9F4251B27CC52005AAE07 /* TaKits.m */; };
+		B4D9F4381B27CC80005AAE07 /* ActivityIndicatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D9F4061B27CA0A005AAE07 /* ActivityIndicatorViewController.m */; };
+		B4D9F4391B27CC80005AAE07 /* ActivityIndicatorPopUp.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D9F40B1B27CA18005AAE07 /* ActivityIndicatorPopUp.m */; };
+		B4D9F43A1B27CC80005AAE07 /* TAPopUp.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D9F40E1B27CA26005AAE07 /* TAPopUp.m */; };
+		B4D9F43B1B27CC80005AAE07 /* UIViewController+TAPopUp.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D9F4101B27CA26005AAE07 /* UIViewController+TAPopUp.m */; };
 		F49053C31B23004400A35E81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F49053C21B23004400A35E81 /* main.m */; };
 		F49053C61B23004400A35E81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F49053C51B23004400A35E81 /* AppDelegate.m */; };
 		F49053C91B23004400A35E81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49053C81B23004400A35E81 /* ViewController.m */; };
 		F49053CC1B23004400A35E81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49053CA1B23004400A35E81 /* Main.storyboard */; };
 		F49053CE1B23004400A35E81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49053CD1B23004400A35E81 /* Images.xcassets */; };
 		F49053D11B23004400A35E81 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49053CF1B23004400A35E81 /* LaunchScreen.xib */; };
-		F49053EA1B23007200A35E81 /* TAPopUp.m in Sources */ = {isa = PBXBuildFile; fileRef = F49053E71B23007200A35E81 /* TAPopUp.m */; };
-		F49053EB1B23007200A35E81 /* UIViewController+TAPopUp.m in Sources */ = {isa = PBXBuildFile; fileRef = F49053E91B23007200A35E81 /* UIViewController+TAPopUp.m */; };
-		F49053F31B23009300A35E81 /* TAKitLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F49053F21B23009300A35E81 /* TAKitLib.h */; };
-		F49053F51B23009300A35E81 /* TAKitLib.m in Sources */ = {isa = PBXBuildFile; fileRef = F49053F41B23009300A35E81 /* TAKitLib.m */; };
-		F49054071B2300AE00A35E81 /* TAPopUp.m in Sources */ = {isa = PBXBuildFile; fileRef = F49053E71B23007200A35E81 /* TAPopUp.m */; };
-		F49054081B2300AE00A35E81 /* UIViewController+TAPopUp.m in Sources */ = {isa = PBXBuildFile; fileRef = F49053E91B23007200A35E81 /* UIViewController+TAPopUp.m */; };
-		F490540A1B2300C400A35E81 /* TAPopUp.h in Headers */ = {isa = PBXBuildFile; fileRef = F49053E61B23007200A35E81 /* TAPopUp.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F490540B1B2300C400A35E81 /* UIViewController+TAPopUp.h in Headers */ = {isa = PBXBuildFile; fileRef = F49053E81B23007200A35E81 /* UIViewController+TAPopUp.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F49054751B2315E700A35E81 /* ActivityIndicatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49054731B2315E700A35E81 /* ActivityIndicatorViewController.m */; };
-		F49054761B2315E700A35E81 /* ActivityIndicatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49054741B2315E700A35E81 /* ActivityIndicatorViewController.xib */; };
-		F49054791B23161100A35E81 /* ActivityIndicatorPopUp.m in Sources */ = {isa = PBXBuildFile; fileRef = F49054781B23161100A35E81 /* ActivityIndicatorPopUp.m */; };
-		F490547E1B23182D00A35E81 /* ActivityIndicatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F49054731B2315E700A35E81 /* ActivityIndicatorViewController.m */; };
-		F490547F1B23182D00A35E81 /* ActivityIndicatorPopUp.m in Sources */ = {isa = PBXBuildFile; fileRef = F49054781B23161100A35E81 /* ActivityIndicatorPopUp.m */; };
-		F49054801B23185D00A35E81 /* ActivityIndicatorPopUp.h in Headers */ = {isa = PBXBuildFile; fileRef = F49054771B23161100A35E81 /* ActivityIndicatorPopUp.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F49054811B23186900A35E81 /* ActivityIndicatorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F49054721B2315E700A35E81 /* ActivityIndicatorViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F49053EE1B23009300A35E81 /* CopyFiles */ = {
+		B4D9F41F1B27CC52005AAE07 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				F49053F31B23009300A35E81 /* TAKitLib.h in CopyFiles */,
+				B4D9F4241B27CC52005AAE07 /* TaKits.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B4D9F4051B27CA0A005AAE07 /* ActivityIndicatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityIndicatorViewController.h; sourceTree = "<group>"; };
+		B4D9F4061B27CA0A005AAE07 /* ActivityIndicatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityIndicatorViewController.m; sourceTree = "<group>"; };
+		B4D9F4071B27CA0A005AAE07 /* ActivityIndicatorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityIndicatorViewController.xib; sourceTree = "<group>"; };
+		B4D9F40A1B27CA18005AAE07 /* ActivityIndicatorPopUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityIndicatorPopUp.h; sourceTree = "<group>"; };
+		B4D9F40B1B27CA18005AAE07 /* ActivityIndicatorPopUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityIndicatorPopUp.m; sourceTree = "<group>"; };
+		B4D9F40D1B27CA26005AAE07 /* TAPopUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPopUp.h; sourceTree = "<group>"; };
+		B4D9F40E1B27CA26005AAE07 /* TAPopUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPopUp.m; sourceTree = "<group>"; };
+		B4D9F40F1B27CA26005AAE07 /* UIViewController+TAPopUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TAPopUp.h"; sourceTree = "<group>"; };
+		B4D9F4101B27CA26005AAE07 /* UIViewController+TAPopUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TAPopUp.m"; sourceTree = "<group>"; };
+		B4D9F4211B27CC52005AAE07 /* libTaKits.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTaKits.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4D9F4231B27CC52005AAE07 /* TaKits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaKits.h; sourceTree = "<group>"; };
+		B4D9F4251B27CC52005AAE07 /* TaKits.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaKits.m; sourceTree = "<group>"; };
 		F49053BD1B23004400A35E81 /* TAKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TAKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49053C11B23004400A35E81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F49053C21B23004400A35E81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -56,30 +68,17 @@
 		F49053D01B23004400A35E81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F49053DB1B23004400A35E81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F49053DC1B23004500A35E81 /* TAKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAKitTests.m; sourceTree = "<group>"; };
-		F49053E61B23007200A35E81 /* TAPopUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPopUp.h; sourceTree = "<group>"; };
-		F49053E71B23007200A35E81 /* TAPopUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPopUp.m; sourceTree = "<group>"; };
-		F49053E81B23007200A35E81 /* UIViewController+TAPopUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TAPopUp.h"; sourceTree = "<group>"; };
-		F49053E91B23007200A35E81 /* UIViewController+TAPopUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TAPopUp.m"; sourceTree = "<group>"; };
-		F49053F01B23009300A35E81 /* libTAKitLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTAKitLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F49053F21B23009300A35E81 /* TAKitLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAKitLib.h; sourceTree = "<group>"; };
-		F49053F41B23009300A35E81 /* TAKitLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAKitLib.m; sourceTree = "<group>"; };
-		F49054001B23009300A35E81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F49054721B2315E700A35E81 /* ActivityIndicatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityIndicatorViewController.h; sourceTree = "<group>"; };
-		F49054731B2315E700A35E81 /* ActivityIndicatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityIndicatorViewController.m; sourceTree = "<group>"; };
-		F49054741B2315E700A35E81 /* ActivityIndicatorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityIndicatorViewController.xib; sourceTree = "<group>"; };
-		F49054771B23161100A35E81 /* ActivityIndicatorPopUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityIndicatorPopUp.h; sourceTree = "<group>"; };
-		F49054781B23161100A35E81 /* ActivityIndicatorPopUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityIndicatorPopUp.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F49053BA1B23004400A35E81 /* Frameworks */ = {
+		B4D9F41E1B27CC52005AAE07 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F49053ED1B23009300A35E81 /* Frameworks */ = {
+		F49053BA1B23004400A35E81 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -89,13 +88,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B4D9F4221B27CC52005AAE07 /* TaKits */ = {
+			isa = PBXGroup;
+			children = (
+				B4D9F4231B27CC52005AAE07 /* TaKits.h */,
+				B4D9F4251B27CC52005AAE07 /* TaKits.m */,
+			);
+			path = TaKits;
+			sourceTree = "<group>";
+		};
 		F49053B41B23004400A35E81 = {
 			isa = PBXGroup;
 			children = (
 				F49053BF1B23004400A35E81 /* TAKit */,
 				F49053D91B23004400A35E81 /* TAKitTests */,
-				F49053F11B23009300A35E81 /* TAKitLib */,
-				F49053FE1B23009300A35E81 /* TAKitLibTests */,
+				B4D9F4221B27CC52005AAE07 /* TaKits */,
 				F49053BE1B23004400A35E81 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,7 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				F49053BD1B23004400A35E81 /* TAKit.app */,
-				F49053F01B23009300A35E81 /* libTAKitLib.a */,
+				B4D9F4211B27CC52005AAE07 /* libTaKits.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,17 +124,17 @@
 				F49053C71B23004400A35E81 /* ViewController.h */,
 				F49053C81B23004400A35E81 /* ViewController.m */,
 				F49053CA1B23004400A35E81 /* Main.storyboard */,
+				B4D9F4051B27CA0A005AAE07 /* ActivityIndicatorViewController.h */,
+				B4D9F4061B27CA0A005AAE07 /* ActivityIndicatorViewController.m */,
+				B4D9F4071B27CA0A005AAE07 /* ActivityIndicatorViewController.xib */,
+				B4D9F40A1B27CA18005AAE07 /* ActivityIndicatorPopUp.h */,
+				B4D9F40B1B27CA18005AAE07 /* ActivityIndicatorPopUp.m */,
+				B4D9F40D1B27CA26005AAE07 /* TAPopUp.h */,
+				B4D9F40E1B27CA26005AAE07 /* TAPopUp.m */,
+				B4D9F40F1B27CA26005AAE07 /* UIViewController+TAPopUp.h */,
+				B4D9F4101B27CA26005AAE07 /* UIViewController+TAPopUp.m */,
 				F49053CD1B23004400A35E81 /* Images.xcassets */,
 				F49053CF1B23004400A35E81 /* LaunchScreen.xib */,
-				F49054721B2315E700A35E81 /* ActivityIndicatorViewController.h */,
-				F49054731B2315E700A35E81 /* ActivityIndicatorViewController.m */,
-				F49054741B2315E700A35E81 /* ActivityIndicatorViewController.xib */,
-				F49053E61B23007200A35E81 /* TAPopUp.h */,
-				F49053E71B23007200A35E81 /* TAPopUp.m */,
-				F49054771B23161100A35E81 /* ActivityIndicatorPopUp.h */,
-				F49054781B23161100A35E81 /* ActivityIndicatorPopUp.m */,
-				F49053E81B23007200A35E81 /* UIViewController+TAPopUp.h */,
-				F49053E91B23007200A35E81 /* UIViewController+TAPopUp.m */,
 				F49053C01B23004400A35E81 /* Supporting Files */,
 			);
 			path = TAKit;
@@ -159,48 +166,41 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F49053F11B23009300A35E81 /* TAKitLib */ = {
-			isa = PBXGroup;
-			children = (
-				F49053F21B23009300A35E81 /* TAKitLib.h */,
-				F49053F41B23009300A35E81 /* TAKitLib.m */,
-			);
-			path = TAKitLib;
-			sourceTree = "<group>";
-		};
-		F49053FE1B23009300A35E81 /* TAKitLibTests */ = {
-			isa = PBXGroup;
-			children = (
-				F49053FF1B23009300A35E81 /* Supporting Files */,
-			);
-			path = TAKitLibTests;
-			sourceTree = "<group>";
-		};
-		F49053FF1B23009300A35E81 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F49054001B23009300A35E81 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		F49054091B2300BA00A35E81 /* Headers */ = {
+		B4D9F43C1B27CC8A005AAE07 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F490540A1B2300C400A35E81 /* TAPopUp.h in Headers */,
-				F490540B1B2300C400A35E81 /* UIViewController+TAPopUp.h in Headers */,
-				F49054801B23185D00A35E81 /* ActivityIndicatorPopUp.h in Headers */,
-				F49054811B23186900A35E81 /* ActivityIndicatorViewController.h in Headers */,
+				B43EB6431B280E39005FA4DF /* ActivityIndicatorViewController.h in Headers */,
+				B43EB6441B280E3A005FA4DF /* ActivityIndicatorPopUp.h in Headers */,
+				B43EB6451B280E3A005FA4DF /* TAPopUp.h in Headers */,
+				B43EB6461B280E3A005FA4DF /* UIViewController+TAPopUp.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		B4D9F4201B27CC52005AAE07 /* TaKits */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4D9F4321B27CC52005AAE07 /* Build configuration list for PBXNativeTarget "TaKits" */;
+			buildPhases = (
+				B4D9F41D1B27CC52005AAE07 /* Sources */,
+				B4D9F41E1B27CC52005AAE07 /* Frameworks */,
+				B4D9F41F1B27CC52005AAE07 /* CopyFiles */,
+				B4D9F43C1B27CC8A005AAE07 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaKits;
+			productName = TaKits;
+			productReference = B4D9F4211B27CC52005AAE07 /* libTaKits.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		F49053BC1B23004400A35E81 /* TAKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F49053E01B23004500A35E81 /* Build configuration list for PBXNativeTarget "TAKit" */;
@@ -218,24 +218,6 @@
 			productReference = F49053BD1B23004400A35E81 /* TAKit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F49053EF1B23009300A35E81 /* TAKitLib */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F49054011B23009300A35E81 /* Build configuration list for PBXNativeTarget "TAKitLib" */;
-			buildPhases = (
-				F49053EC1B23009300A35E81 /* Sources */,
-				F49053ED1B23009300A35E81 /* Frameworks */,
-				F49053EE1B23009300A35E81 /* CopyFiles */,
-				F49054091B2300BA00A35E81 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TAKitLib;
-			productName = TAKitLib;
-			productReference = F49053F01B23009300A35E81 /* libTAKitLib.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -245,10 +227,10 @@
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = tuananh;
 				TargetAttributes = {
-					F49053BC1B23004400A35E81 = {
-						CreatedOnToolsVersion = 6.3.1;
+					B4D9F4201B27CC52005AAE07 = {
+						CreatedOnToolsVersion = 6.3.2;
 					};
-					F49053EF1B23009300A35E81 = {
+					F49053BC1B23004400A35E81 = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
 				};
@@ -267,7 +249,7 @@
 			projectRoot = "";
 			targets = (
 				F49053BC1B23004400A35E81 /* TAKit */,
-				F49053EF1B23009300A35E81 /* TAKitLib */,
+				B4D9F4201B27CC52005AAE07 /* TaKits */,
 			);
 		};
 /* End PBXProject section */
@@ -278,7 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F49053CC1B23004400A35E81 /* Main.storyboard in Resources */,
-				F49054761B2315E700A35E81 /* ActivityIndicatorViewController.xib in Resources */,
+				B4D9F4091B27CA0A005AAE07 /* ActivityIndicatorViewController.xib in Resources */,
 				F49053D11B23004400A35E81 /* LaunchScreen.xib in Resources */,
 				F49053CE1B23004400A35E81 /* Images.xcassets in Resources */,
 			);
@@ -287,29 +269,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B4D9F41D1B27CC52005AAE07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4D9F4261B27CC52005AAE07 /* TaKits.m in Sources */,
+				B4D9F4381B27CC80005AAE07 /* ActivityIndicatorViewController.m in Sources */,
+				B4D9F4391B27CC80005AAE07 /* ActivityIndicatorPopUp.m in Sources */,
+				B4D9F43A1B27CC80005AAE07 /* TAPopUp.m in Sources */,
+				B4D9F43B1B27CC80005AAE07 /* UIViewController+TAPopUp.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F49053B91B23004400A35E81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F49053C91B23004400A35E81 /* ViewController.m in Sources */,
-				F49053EA1B23007200A35E81 /* TAPopUp.m in Sources */,
+				B4D9F4111B27CA26005AAE07 /* TAPopUp.m in Sources */,
+				B4D9F40C1B27CA18005AAE07 /* ActivityIndicatorPopUp.m in Sources */,
 				F49053C61B23004400A35E81 /* AppDelegate.m in Sources */,
-				F49054791B23161100A35E81 /* ActivityIndicatorPopUp.m in Sources */,
-				F49054751B2315E700A35E81 /* ActivityIndicatorViewController.m in Sources */,
 				F49053C31B23004400A35E81 /* main.m in Sources */,
-				F49053EB1B23007200A35E81 /* UIViewController+TAPopUp.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F49053EC1B23009300A35E81 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F490547E1B23182D00A35E81 /* ActivityIndicatorViewController.m in Sources */,
-				F490547F1B23182D00A35E81 /* ActivityIndicatorPopUp.m in Sources */,
-				F49054071B2300AE00A35E81 /* TAPopUp.m in Sources */,
-				F49054081B2300AE00A35E81 /* UIViewController+TAPopUp.m in Sources */,
-				F49053F51B23009300A35E81 /* TAKitLib.m in Sources */,
+				B4D9F4121B27CA26005AAE07 /* UIViewController+TAPopUp.m in Sources */,
+				B4D9F4081B27CA0A005AAE07 /* ActivityIndicatorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +317,28 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B4D9F4331B27CC52005AAE07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B4D9F4341B27CC52005AAE07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		F49053DE1B23004500A35E81 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -371,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -408,7 +412,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -435,31 +439,18 @@
 			};
 			name = Release;
 		};
-		F49054021B23009300A35E81 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		F49054031B23009300A35E81 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B4D9F4321B27CC52005AAE07 /* Build configuration list for PBXNativeTarget "TaKits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4D9F4331B27CC52005AAE07 /* Debug */,
+				B4D9F4341B27CC52005AAE07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F49053B81B23004400A35E81 /* Build configuration list for PBXProject "TAKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -476,14 +467,7 @@
 				F49053E21B23004500A35E81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F49054011B23009300A35E81 /* Build configuration list for PBXNativeTarget "TAKitLib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F49054021B23009300A35E81 /* Debug */,
-				F49054031B23009300A35E81 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

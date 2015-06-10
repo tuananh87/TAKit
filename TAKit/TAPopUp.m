@@ -8,6 +8,7 @@
 
 #import "TAPopUp.h"
 #import "UIViewController+TAPopup.h"
+#import "ActivityIndicatorViewController.h"
 
 @interface TAPopUp()
 
@@ -68,10 +69,6 @@
     self.popupWindow = nil;
     self.retainMe = nil;
     
-}
-
-- (void)dealloc{
-    NSLog(@"dealloc %@", self);
 }
 
 - (void)hideWithDelay:(NSTimeInterval)delay withCompleteBlock:(void(^)())complete{
