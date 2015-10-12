@@ -16,4 +16,6 @@
 - (void)hide;
 - (void)hideWithDelay:(NSTimeInterval)delay withCompleteBlock:(void(^)())complete;
 
+@property (nonatomic) UIWindowLevel windowLevel;
+
 @end

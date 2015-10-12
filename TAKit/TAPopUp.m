@@ -35,7 +35,12 @@
 - (UIWindow *)popupWindow{
     if (!_popupWindow) {
         _popupWindow = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-        _popupWindow.windowLevel = (UIWindowLevelAlert + UIWindowLevelNormal)/2;
+        
+        if (self.windowLevel)
+            _popupWindow.windowLevel = self.windowLevel;
+        else
+            _popupWindow.windowLevel = (UIWindowLevelAlert + UIWindowLevelNormal)/2;
+        
     }
     return _popupWindow;
 }
