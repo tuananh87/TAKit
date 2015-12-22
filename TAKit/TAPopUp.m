@@ -9,6 +9,26 @@
 #import "TAPopUp.h"
 #import "UIViewController+TAPopup.h"
 #import "ActivityIndicatorViewController.h"
+#import <objc/runtime.h>
+
+@implementation UIWindow(Hihi)
+
+static void *hihitapoupkey;
+
+- (void)setPopUp:(TAPopUp *)popup{
+    objc_setAssociatedObject(self, &hihitapoupkey, popup, OBJC_ASSOCIATION_ASSIGN);
+}
+
+- (TAPopUp *)popUp{
+    TAPopUp *result = (TAPopUp *)objc_getAssociatedObject(self, &hihitapoupkey);
+    return result;
+}
+
+- (void)hide{
+    [[self popUp] hide];
+}
+
+@end
 
 @interface TAPopUp()
 
@@ -40,7 +60,7 @@
             _popupWindow.windowLevel = self.windowLevel;
         else
             _popupWindow.windowLevel = (UIWindowLevelAlert + UIWindowLevelNormal)/2;
-        
+        [_popupWindow setPopUp:self];
     }
     return _popupWindow;
 }
@@ -71,6 +91,7 @@
     [self.contentViewController.view removeFromSuperview];
     self.contentViewController.popUp = nil;
     [self.popupWindow resignKeyWindow];
+    [self.popupWindow setPopUp:nil];
     self.popupWindow = nil;
     self.retainMe = nil;
     
